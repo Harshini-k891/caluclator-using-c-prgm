@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int arr[3]={10,20,30};
+    int i,temp=60;
+    for(i=0;i<3;i++)
+    {
+        if(temp==arr[i])
+        {
+            printf("element found\n");
+            return 0;
+        }
+    }
+    printf("element not found\n");
+    return 0;
+}
